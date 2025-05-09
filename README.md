@@ -1,19 +1,30 @@
-<h1>SISTEMA DE CONTROLE DE ESTOQUE - CRUD 🔗</h1>
-
+🧮 SISTEMA DE CONTROLE DE ESTOQUE - CRUD 🔗
 🚀 OBJETIVO
+O objetivo deste mini projeto é simular um sistema de controle de estoque, no qual o usuário pode:
 
-O Objetivo desse mini projeto é simular um sistema de controle de estoques no qual o usuário vai ter as possibilidades de cadastrar, listar, atualizar e remover um produto. Dentro do MENU essas opções vão estar nele e o usuário conseguirá usufruir de todas elas.
+Cadastrar produtos
 
-Também haverá uma opção disponível para realizar a venda ou o reabastecimento do produto.
+Listar produtos
 
-Seguiremos uma regra para cada remoção de produto. Qual será essa regra?
- R: Quando o usuário escolher “Remover”, tal ação só poderá ser executada se a quantidade desse produto for igual a zero, se existir alguma quantidade desse produto no estoque, a remoção não poderá ser feita.
+Atualizar informações de um produto
 
+Remover produtos
 
-🗄️ Gerenciamento de Estoques
+Vender ou reabastecer um produto
 
-* Neste programa, desenvolvi um sistema para gerenciar produtos dentro de um estoque, utilizando o conceito de CRUD (Create, Read, Update, Delete). Este CRUD ainda é simples, mas futuramente pretendo aprimorá-lo e integrá-lo a um banco de dados.
+Todas essas opções estão disponíveis em um menu interativo via terminal.
 
-* O objetivo deste mini projeto é simular um sistema de controle de estoque no qual o usuário pode cadastrar, listar, atualizar e remover produtos.
+🔒 Regra de Negócio:
+Um produto só poderá ser removido se a quantidade em estoque for igual a zero. Caso haja unidades disponíveis, a remoção será bloqueada.
 
-* Utilizei conceitos da programação funcional, como o método stream() para criar um fluxo de dados e o filter() para localizar objetos com base no ID. Também apliquei a Programação Orientada a Objetos (POO) para organizar melhor o código, e separação de responsabilidades.
+🗄️ GERENCIAMENTO DE ESTOQUES
+Este projeto foi desenvolvido com base nos conceitos de CRUD (Create, Read, Update, Delete). Embora seja um sistema simples, pretendo aprimorá-lo futuramente e integrá-lo com um banco de dados.
+
+⚙️ FUNCIONALIDADES E TÉCNICAS UTILIZADAS
+Programação Orientada a Objetos (POO) para organização e separação de responsabilidades.
+
+Uso de programação funcional, com stream() e filter() para manipulação de listas.
+
+Validações para entradas inválidas (como ID duplicado, nomes vazios e preços ou quantidades negativas).
+
+Menu interativo com tratamento de exceções básicas.
