@@ -1,30 +1,42 @@
-## 🧮 SISTEMA DE CONTROLE DE ESTOQUE - CRUD 🔗
+# 🧮 Sistema de Controle de Estoque - CRUD
 
-### 🚀 OBJETIVO
+## 🚀 Sobre o Projeto
 
-O objetivo deste mini projeto é simular um sistema de controle de estoque, no qual o usuário pode:
+Este é um mini projeto que simula um sistema de controle de estoque, com um menu simples no terminal. A ideia é permitir que o usuário possa:
 
-- ✅ Cadastrar produtos  
-- 📋 Listar produtos  
-- ✏️ Atualizar informações de um produto  
-- ❌ Remover produtos  
-- 🔄 Vender ou reabastecer um produto  
+- Cadastrar novos produtos  
+- Ver a lista completa dos produtos  
+- Atualizar informações de um produto existente  
+- Remover produtos do sistema  
+- Realizar vendas ou reabastecimentos de estoque  
 
-Todas essas opções estão disponíveis em um menu interativo via terminal.
+Tudo isso de forma prática e direta, usando o terminal.
 
-### 🔒 Regra de Negócio
+---
 
-> Um produto **só poderá ser removido** se a quantidade em estoque for igual a **zero**.  
-> Caso haja unidades disponíveis, a remoção será bloqueada.
+## 🔒 Regras do Sistema
 
-### 🗄️ GERENCIAMENTO DE ESTOQUES
+Tem uma regra importante aqui:  
+**Um produto só pode ser removido se sua quantidade em estoque for igual a zero.**  
+Ou seja, se ainda tiver unidades disponíveis, o sistema não permite a exclusão.
 
-Este projeto foi desenvolvido com base nos conceitos de **CRUD** (Create, Read, Update, Delete).  
-Embora seja um sistema simples, pretendo aprimorá-lo futuramente e integrá-lo com um banco de dados.
+---
 
-### ⚙️ FUNCIONALIDADES E TÉCNICAS UTILIZADAS
+## 🗂️ O que foi usado e por quê
 
-- 🧱 **Programação Orientada a Objetos (POO)** para organização e separação de responsabilidades.  
-- 🔁 Uso de **programação funcional**, com `stream()` e `filter()` para manipulação de listas.  
-- ⚠️ **Validações** para entradas inválidas (como ID duplicado, nomes vazios e preços ou quantidades negativas).  
-- 🖥️ **Menu interativo** com tratamento de exceções básicas.
+Esse sistema foi construído aplicando alguns princípios que estou aprendendo:
+
+- **Programação Orientada a Objetos (POO)** – para manter o código mais organizado e dividir bem as responsabilidades.  
+- **Programação Funcional** – usei `stream()` e `filter()` para encontrar produtos na lista, o que ajuda a deixar o código mais enxuto.  
+- **Validações básicas** – como verificar se o ID já existe, se o nome está vazio ou se o preço/quantidade são válidos.  
+- **Menu interativo no terminal** – tudo acontece por lá, com mensagens claras para ajudar o usuário a navegar pelo sistema.
+
+---
+
+## 💡 Próximos passos
+
+Esse é só o começo. A ideia é melhorar esse sistema com o tempo e, futuramente, conectar com um banco de dados para salvar tudo de forma permanente.
+
+---
+
+Feito com 💻, curiosidade e muita vontade de aprender.
