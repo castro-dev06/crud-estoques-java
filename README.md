@@ -38,5 +38,3 @@ Esse sistema foi construído aplicando alguns princípios que estou aprendendo:
 Esse é só o começo. A ideia é melhorar esse sistema com o tempo e, futuramente, conectar com um banco de dados para salvar tudo de forma permanente.
 
 ---
-
-Feito com 💻, curiosidade e muita vontade de aprender.
