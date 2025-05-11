@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class EstoqueService {
+
     public static void cadastrarProduto(List<Estoque> list, Scanner sc){
         System.out.println("----- CADASTRAR PRODUTO -----");
         System.out.print("ID: ");
