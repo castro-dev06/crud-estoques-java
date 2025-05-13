@@ -30,6 +30,7 @@ Esse sistema foi construído aplicando alguns princípios que estou aprendendo:
 - **Programação Funcional** – usei `stream()` e `filter()` para encontrar produtos na lista, o que ajuda a deixar o código mais enxuto.  
 - **Validações básicas** – como verificar se o ID já existe, se o nome está vazio ou se o preço/quantidade são válidos.  
 - **Menu interativo no terminal** – tudo acontece por lá, com mensagens claras para ajudar o usuário a navegar pelo sistema.
+- Classe EstoqueService - responsável por concentrar toda a lógica de negócio do sistema, separando da classe principal (Program). Isso torna o método main mais limpo e o código, mais fácil de manter e entender.
 
 ---
 
